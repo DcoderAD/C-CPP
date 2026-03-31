@@ -1,13 +1,5 @@
-int main()
-{
-    int a[10];
-    input(a,10);
+when we can create all type of pointer the in which case we will use void pointer in c and then perform type casting for dereferencing ?
 
-}
-void input(int b[],int n)
-{
-    int i;
-    printf("Enter %d numbers",n);
-    for(i=0;i<n;i++)
-        scan("%d",&b[i]);
-}  in this program "int b[]" is receiving "a" but what actually it is receiving from a? what is happening inside actually!!
+
+
+why we are checking if the pointer is holding the valid address not NULL when we already assign NUll to it in initialization time??
