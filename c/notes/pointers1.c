@@ -2,9 +2,9 @@
 ___________
 -just revise the memory concept which was explained in the string with memory.
 -we can call address as reference too in c language
--we do zero based counting 
+-we do zero based counting here 
 -variable address will always be a whole number.
--we cant decide or assign a perticular memory address for a variable.but yes we can know that what is the address assigned to that variable by the system.  
+-we cant decide or assign a perticular memory address for a variable.but yes we can know that what is the address assigned to that variable by the system by simply pronting it.  
 -we cant change the address of a variable
 */
 
@@ -16,7 +16,7 @@ _________________________________________
 
 int x=5;
 printf("%d",&x)//print address of x
-printf("%d",*&x)//* se & cancel ho jayega and x ki value print ho jayegi.means reference ki dereferencing ho jayegi
+printf("%d",&x*)// yaha * se & cancel ho jayega and x ki value print ho jayegi.means reference ki dereferencing ho jayegi
 
 
 -About &----->
@@ -25,7 +25,7 @@ ______________
         -address of operator
         -referencing operator
         -unary operator
-        -& ke bad always variable name aayega like &x
+        -& ke bad always variable name aayega like &x.variable can be ordinary and pointer type both.
 
 
 -About *----->
@@ -35,8 +35,8 @@ _______________
         -also known as dereferencing operator
         -unary operator
         -* ke baad always address aayega like 
-        id address of a variable is &x=100 then *&x.we cant write directly *100 because we dont know in advance that what address will be assign to x by the system so we will use &x in place of 100.
-        -so *&x---> &x become 100--->*100--->*  address 100 ki dereferencing kr ke variable ki value dega
+        if address of a variable is &x=100 then *&x.we cant write directly *100 because we dont know in advance that what address will be assign to x by the system so we will use &x in place of 100.
+        -so *&x---> become  x 100--->*100--->*  address 100 ki dereferencing kr ke variable ki value dega
         -so &x variable le kar address deta tha *&x address le kar variable dega
         ----->*&x becomes x
 
@@ -50,7 +50,7 @@ int x;
 
 char str[10];
 str="hello";//Error
--str is address cant assign anything in address.
+-str is address itself cant assign anything in address.
 -we use strcpy(str,"hello") instead of str="hello"
 */
 
