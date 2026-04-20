@@ -18,10 +18,10 @@
 //     case 4.1:/*Error: only integer constants are allowed*/
 //         print("double")
 
-//     case 1 ... 5:       /*if user enter 1 to5 this case will run     */
+//     case 1 ... 5:       /*if user enter 1 to 5 this case will run     */
 //         print("unique case ")
 //     default:
-//         printf("sorry doesnt match\n");
+//         printf("sorry doesnt match any case\n");
 
 //     }
 // }
@@ -30,13 +30,13 @@
 
 
 
-1.case cant be duplilcate
+1.case cant be duplilcate.
 
 2.no need of break after default bcz switch is ending after it
 
-3.after case you cant use variable .only constant allow like 1,2,10,20, or 'A'-->this is internally considerd as int so its allowed.Expressions are allowed too like 4>3--->true--->1
+3.after case you cant use variable .only constant allow like 1,2,10,20, or 'A'-->this is internally considerd as int so its allowed.Expressions are allowed too like      4>3--->true--->1
 
-4.switch does not give answere in true false.....it gives integer 0 or non zero
+4.switch does not give answere in true false.....it gives integer.either 0 or non zero.
 
 
 5.use switch case when you need to work on too many options or choices.like some sort of menu driven program

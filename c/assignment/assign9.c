@@ -33,28 +33,28 @@
 // }
 
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main() {
-    char ch;
+// int main() {
+//     char ch;
 
-    // Asking for user input
-    printf("Enter any character: ");
-    scanf("%c", &ch);
+//     // Asking for user input
+//     printf("Enter any character: ");
+//     scanf("%c", &ch);
 
-    // Logic using ASCII ranges
-    if (ch >= 'A' && ch <= 'Z') {
-        printf("'%c' is an Uppercase letter.\n", ch);
-    } 
-    else if (ch >= 'a' && ch <= 'z') {
-        printf("'%c' is a Lowercase letter.\n", ch);
-    } 
-    else {
-        printf("'%c' is not an alphabetic letter.\n", ch);
-    }
+//     // Logic using ASCII ranges
+//     if (ch >= 'A' && ch <= 'Z') {
+//         printf("'%c' is an Uppercase letter.\n", ch);
+//     } 
+//     else if (ch >= 'a' && ch <= 'z') {
+//         printf("'%c' is a Lowercase letter.\n", ch);
+//     } 
+//     else {
+//         printf("'%c' is not an alphabetic letter.\n", ch);
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
 
 
 
