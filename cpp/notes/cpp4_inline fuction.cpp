@@ -1,7 +1,7 @@
 /*Inline functions
 ___________________
--inline is a keyword.this concept belongs to c++ and was not in c but not c also have this concept of inline function.
--we know there are many beni benifits of making functions but there is a benifit related memory which is inline function.
+-inline is a keyword.this concept belongs to c++ and was not in c but now c also have this concept of inline function.
+-we know there are many  benifits of making functions but there is a benifit related memory which is inline function.
 -there is benifit of making making a saperate function we can save memory.if a function is large and taking too much memory. it comes into ram when it is called and after execution it goes out of ram.so it will take a little time for execution.
 -there is a con of making function too.when we call a function from another function then it pause and store  current execution status situation in register and memory for further steps and call another function and load its variable and execute it then again it goes to previous line of execution and load that stored status.so basically in switching(pause,store,load) these functions waste time of the system.how many time we call the functions it takes little more time and increase the execution time of our program.
 -think if you write that large code in the main() function then it will stay in the ram till the end of the program. 
